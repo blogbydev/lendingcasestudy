@@ -3,11 +3,10 @@
 The objective of this case study is to identify possible reasons for loan defaults (a.k.a "Charge Off"). There are various categorical and numerical variables present in the dataset relevant to the entire journey of lending and payments(or recoveries in case of "Charge Off"s). More information describing the dataset can be found in the below sections. Subsequent sections will also show data manipulations, analysis and conclusions.
 
 ## Table of Contents
-* [General Information]()
-* [Data understanding]()
-* [Data cleaning and manipulation]()
-* [Data analysis]()
-* [Conclusions]()
+* [Data understanding](#data-understanding)
+* [Data cleaning and manipulation](#data-cleaning-and-manipulation)
+* [Data analysis](#data-analysis)
+* [Conclusions](#conclusions)
 
 ## Data understanding
 - In order to understand the dataset, it's important to understand the lending domain. A very general flow of lending domain can be understood as follows.
