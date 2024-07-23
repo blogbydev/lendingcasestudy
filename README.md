@@ -6,6 +6,7 @@ The objective of this case study is to identify possible reasons for loan defaul
 * [Data understanding](#data-understanding)
 * [Data cleaning and manipulation](#data-cleaning-and-manipulation)
 * [Data analysis](#data-analysis)
+* [Observations](#observations)
 * [Conclusions](#conclusions)
 
 ## Data understanding
@@ -34,12 +35,38 @@ A `borrower` requests for a `loan` from the lending platforms/organisations. Bas
 - Segmented Bivariate - boxplots for all relevant numerical columns over `loan_status`
 - Multivariate - heatmap, mean of numerical columns(after removing outliers) grouped by categorical columns over `loan_status`
 
+## Observations
+- Borrowers who live in a rented house are more likely to default as compared to people who own a house
+- The borrowers whose annual income was verified default more
+- The state of Nevada has proportionally more defaulters
+- Borrowers who take long term loans default more
+- loan for small businesses tend towards more defaults as compared to other purposes
+- The percentage wise charge off as per the grades is as expected
+- the assigned sub-grades are mostly matching to their expectations except for "G" sub-grades
+- proportionally, the more enquiries that happen on the credit profile in the last 6 months, tend to charge off more
+- not a lot of borrowers have publicly recorded derogatory comments, but those who have, are likely to charge off more
+- not a lot of borrowers have publicly declared bankruptcies, but those who have are more likely to charge off
+- borrowers having less than 30 open accounts have a regular trend of charge offs, and borrowers having more than 30 open accounts are not too many in number, hence no specific action can be taken here
+- a lot of last payments happened in the year of 2008 and 2009 due to recession and were declared charged off since they couldn't pay after 2009.
+- borrowers having high annual income tend to default less
+- the higher the interest rates, the higher the chances of being charged off
+- charge off proportion is not correlated to unpaid credit amount
+- higher utilization of credit limit shows signs of distress of a weak financial stability, they seem to have defaulted more
+- lower payment amounts tend to charge off more
+- borrowers whose total payments have been smaller amounts are more likely to default
+- there is no clear correlation between the numerical columns, except the expected columns. loan_amnt, funded_amnt, funded_amnt_inv, installment are expected to be highly correlated
+- verified borrowers have higher tendency to default if they had high interest rate
+
 ## Conclusions
-
-## Technologies Used
-- matplotlib - version 1.0
-- pandas - version 2.0
-- seaborn - version 3.0
-
-## Contact
-Created by [@blogbydev] - feel free to contact me!
+- The process of verification needs to be re-looked at
+- Convincing the borrowers to take short term loans may lead to lesser defaults
+- loans for small businesses should be scrutinized carefully
+- proper scrutinization should be done for borrowers who had frequent enquiries on the credit profile in the last 6 months as that can be a reflection of the borrowers financial statu
+- borrowers having publicly recorded derogatory comments should be properly scrutinize
+- borrowers who have publicly declared bankruptcies should be scrutinized properly
+- events like recession will very likely reflect in a lot of defaults
+- borrowers with high annual income are more promising client
+- interest rate is an interesting variable that should be analysed with other variables to get an actionable conclusion. Just lowering the interest rates is not feasible
+- borrowers having high utilisation of credits should be scrutinized properly
+- reduction in payment amount is a sign of tending towards charging of
+- borrowers who have done more payments show intent of fully paying the loan
