@@ -58,15 +58,8 @@ A `borrower` requests for a `loan` from the lending platforms/organisations. Bas
 - verified borrowers have higher tendency to default if they had high interest rate
 
 ## Conclusions
-- The process of verification needs to be re-looked at
-- Convincing the borrowers to take short term loans may lead to lesser defaults
-- loans for small businesses should be scrutinized carefully
-- proper scrutinization should be done for borrowers who had frequent enquiries on the credit profile in the last 6 months as that can be a reflection of the borrowers financial statu
-- borrowers having publicly recorded derogatory comments should be properly scrutinize
-- borrowers who have publicly declared bankruptcies should be scrutinized properly
-- events like recession will very likely reflect in a lot of defaults
-- borrowers with high annual income are more promising client
-- interest rate is an interesting variable that should be analysed with other variables to get an actionable conclusion. Just lowering the interest rates is not feasible
-- borrowers having high utilisation of credits should be scrutinized properly
-- reduction in payment amount is a sign of tending towards charging of
-- borrowers who have done more payments show intent of fully paying the loan
+- Borrowers with high debt to income ratio, high revolving balance utilization, borrowers who needed to have multiple inquiries in the last 6 months and borrowers who have had publicly recorded bankruptcies, need proper scrutiny before lending
+- Longer term duration, higher interest rates, low annual income pose more risk of being defaulted, hence borrowers with high annual income, lower term duration and relatively lower interest rates are more promising clients
+- Events like recession (2008-2009) are likely to impact the lending industry negatively and more defaulters will be seen
+- There seem to be a discrepancy in the annual income verification process, as the verified borrowers seem to default more
+- Lending club platform needs to re-look at sub-grade “G” assignments, but overall LC Grades properly depict the risk of the loan entry.
